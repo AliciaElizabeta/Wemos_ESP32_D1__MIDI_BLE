@@ -2,7 +2,7 @@
 Repository for my end of degree project
 
 ## MPU 6050
-Library from https://github.com/jrowberg/i2cdevlib
+Library from https://github.com/jrowberg/i2cdevlib  
 Info from https://naylampmechatronics.com/blog/45_tutorial-mpu6050-acelerometro-y-giroscopio.html
 
 ## MIDI BLE
