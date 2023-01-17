@@ -12,5 +12,7 @@ https://docs.arduino.cc/built-in-examples/control-structures/SwitchCase
 Tabla de conversion de notas a partir de frecuencias y valores MIDI  
 https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies  
 
+![Tabla de notas](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/TablaNotas.PNG)
+
 ## MIDI BLE
 Library used from https://github.com/lathoub/Arduino-BLE-MIDI 
