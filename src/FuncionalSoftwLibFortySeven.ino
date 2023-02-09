@@ -19,7 +19,8 @@ const int X_pin = 36;  // IO36
 //Base musical
 int d = 170; //Velocidad de nota o volumen
 int octava = 4; //Octavas que tienen el minimo a -1 y el maximo a 9
-
+int note = 60;
+int last_note = 60;
 
 
 void setup()
@@ -29,7 +30,7 @@ void setup()
 
   //Arranque del MIDI
     MIDI.begin(MIDI_CHANNEL_OMNI);  // Listen to all incoming messages
-    int note = 60;
+
 
   // //Sensores
     sensor.initialize();      //Iniciando el sensor MPU6050
@@ -53,7 +54,10 @@ void loop()
   if (digitalRead(SW_pin) == 0) {
     note = minNote + getNoteFromMPU6050(); //Obtiene la nota a enviar con base en Do cuarta a Si en cuarta
     MIDI.sendNoteOn(note, d, 10); //nota velocidad canal
+    last_note = note;
+    while(digitalRead(SW_pin) == 0 ){}
   }
+  MIDI.sendNoteOff(last_note, 0, 10);
 
   Serial.print("Switch:  ");
   Serial.print(digitalRead(SW_pin));
