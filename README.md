@@ -6,10 +6,10 @@ The components I have used are as follows :
 ## MPU 6050
 Library from https://github.com/jrowberg/i2cdevlib  
 Info from https://naylampmechatronics.com/blog/45_tutorial-mpu6050-acelerometro-y-giroscopio.html
-![Tabla de notas](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/TablaNotas.PNG)
+![mpu](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/6122aJPEBTL._SX342_.jpg)
 
 ## Joystick
-![Tabla de notas](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/TablaNotas.PNG)
+![joystickimg](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/41CScnrMzFL._SX425_.jpg)
 
 ## Wemos D1 R32
-![Tabla de notas](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/TablaNotas.PNG)
+![wemos img](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/wemosimg.jpeg)
