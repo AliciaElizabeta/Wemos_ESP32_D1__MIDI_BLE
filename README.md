@@ -15,5 +15,7 @@ Info from https://naylampmechatronics.com/blog/45_tutorial-mpu6050-acelerometro-
 ![wemos img](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/wemosimg.jpeg)
 
 #Scheme
+![scheme img](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/SketchTFG.png)
 
 #Result
+![result img](https://github.com/AliciaElizabeta/Wemos_ESP32_D1__MIDI_BLE/blob/main/ImgProyecto/result.jpg)
